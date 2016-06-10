@@ -1,4 +1,4 @@
-package co.gdera.javacvtest;
+package co.gdera.javacvtest.activity;
 
 import android.os.Bundle;
 import android.os.Environment;
@@ -8,6 +8,8 @@ import android.view.MenuItem;
 
 import org.bytedeco.javacpp.opencv_core;
 import org.bytedeco.javacv.FFmpegFrameRecorder;
+
+import co.gdera.javacvtest.R;
 
 import static org.bytedeco.javacpp.opencv_highgui.cvLoadImage;
 
